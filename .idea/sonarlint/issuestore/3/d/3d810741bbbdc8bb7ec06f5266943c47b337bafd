@@ -1,0 +1,17 @@
+
+T
+java:S2387""7"logger" is the name of a field in "GenericFilterBean".(Ê×…É8ÈŠßıÀ.
+G
+java:S1068""*Remove this unused "logger" private field.(Ê×…É8ËõûıÀ.
+b
+java:S32526"EUse static access with "com.alibaba.fastjson.JSON" for "parseObject".(ÙŠñ8ÉÒèıÀ.
+E
+java:S1148G"#Use a logger to log this exception.(Âşÿâûÿÿÿÿ8™‹‹şÀ.
+
+java:S1128"dRemove this unused import 'org.springframework.security.authentication.AbstractAuthenticationToken'.(½³î«8äøıÀ.
+§
+java:S11304"„Remove the declaration of thrown exception 'org.springframework.security.core.AuthenticationException' which is a runtime exception.(ªœİÉûÿÿÿÿ8–ÏÒıÀ.
+E
+java:S1148j"#Use a logger to log this exception.(Âşÿâûÿÿÿÿ8‰’ÃşÀ.
+v
+java:S2293c"YReplace the type specification in this constructor call with the diamond operator ("<>").(½î¸š8‰’ÃşÀ.

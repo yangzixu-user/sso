@@ -1,0 +1,24 @@
+server:
+  port: 80
+  servlet:
+    context-path: /
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/security_authority?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
+    username: root
+    password: root123
+mybatis:
+  type-aliases-package: com.sso.entity
+  configuration:
+    map-underscore-to-camel-case: true
+
+#logging:
+ # level: info
+
+# 下面几个是自定义的，rsa也是自定义的
+rsa:
+  key:
+    pubKeyPath: C:\Users\admin\auth_key\id_key_rsa.pub
+    priKeyPath: C:\Users\admin\auth_key\id_key_rsa

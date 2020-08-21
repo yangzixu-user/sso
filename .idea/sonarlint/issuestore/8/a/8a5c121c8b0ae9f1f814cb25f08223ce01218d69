@@ -1,0 +1,14 @@
+
+^	java:S899`"BDo something with the "boolean" value returned by "createNewFile".(ø–Æ8ÿ¬ÁûÀ.
+W
+java:S1118":Add a private constructor to hide the implicit public one.(Æä‡£8ï¼ŠùÀ.
+t
+java:S1128"WRemove this unused import 'org.springframework.security.crypto.encrypt.BytesEncryptor'.(õÚ¢8ÿ¬ÁûÀ.
+R
+java:S1128"0Remove this unused import 'java.io.IOException'.(ªº»Úıÿÿÿÿ8’ƒšùÀ.
+O
+java:S1172H"-Remove this unused method parameter "secret".(‡‚èëşÿÿÿÿ8ÿ¬ÁûÀ.
+P
+java:S1128"3Remove this unused import 'java.io.BufferedReader'.(€é²Å8ÿ¬ÁûÀ.
+p
+java:S1128"SRemove this unused import 'com.sun.xml.internal.ws.policy.privateutil.PolicyUtils'.(Û•‚€8’ƒšùÀ.

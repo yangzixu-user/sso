@@ -1,0 +1,23 @@
+server:
+  port: 8081
+  servlet:
+    context-path: /
+
+spring:
+  datasource:
+    url: jdbc:msyql://127.0.0.1:3306/security_authority?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: root123
+
+mybatis:
+  type-aliases-package: com.sso.entity
+  configuration:
+    map-underscore-to-camel-case: true
+logging:
+  level:
+    com: debug
+
+rsa:
+  key:
+    pubKeyPath: C:\Users\admin\auth_key\id_key_rsa.pub
